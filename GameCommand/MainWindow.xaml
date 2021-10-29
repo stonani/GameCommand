@@ -1,0 +1,17 @@
+﻿<Window x:Class="GameCommand.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameCommand"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="435" Width="800">
+    <Canvas Name="myCanvas" Background="DeepSkyBlue" Focusable="True" KeyUp="KeyIsUp">
+        <Rectangle Name="yellowPlayer"  Fill="Orange" Height="50" Canvas.Left="50" Stroke="Black" Canvas.Top="50" Width="50"/>
+        <Button x:Name="buttonA" Content="A" Canvas.Left="10" Canvas.Top="336" Width="60" Height="60" Click="buttonA_Click"/>
+        <Button x:Name="buttonS" Content="S" Canvas.Left="75" Canvas.Top="336" Width="60" Height="60" Click="buttonS_Click"/>
+        <Button x:Name="buttonD" Content="D" Canvas.Left="140" Canvas.Top="336" Width="60" Height="60" Click="buttonD_Click"/>
+        <Button x:Name="buttonW" Content="W" Canvas.Left="75" Canvas.Top="271" Width="60" Height="60" Click="buttonW_Click"/>
+
+    </Canvas>
+</Window>
