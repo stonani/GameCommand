@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="moveDown.cs" />
     <Compile Include="moveLeft.cs" />
+    <Compile Include="movementInvoker.cs" />
     <Compile Include="moveRight.cs" />
     <Compile Include="moveUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
